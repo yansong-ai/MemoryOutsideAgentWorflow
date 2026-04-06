@@ -1,0 +1,30 @@
+# 实验产出（勿提交大文件）
+runs/
+evals/*.json
+evals/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 虚拟环境
+*-env/
+venv/
+.venv/
+
+# 编辑器
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 模型权重（通常很大）
+*.bin
+*.safetensors
+*.pt
+*.pth
